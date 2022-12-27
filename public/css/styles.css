@@ -1,0 +1,145 @@
+:root {
+    --blueColor: #0a53c1;
+    --darkColor: #212529;
+}
+
+.nav-item a {
+    color: var(--blueColor);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #a2c6fb;
+
+}
+
+.container {
+    margin: 20px auto 100px auto;
+    padding: 0;
+
+
+}
+
+.container h1 {
+    color: var(--blueColor);
+    border: #212529 5px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 10px;
+
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+}
+
+.footer p {
+
+    color: var(--blueColor);
+    font-size: medium;
+}
+
+#newPostContent {
+    height: 200px;
+    width: 500px;
+    font-size: 14pt;
+    display: block;
+}
+
+#newPostTitle {
+
+    width: 500px;
+    font-size: 14pt;
+    display: block;
+}
+
+.home-container {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.home-container h4 {
+    color: var(--blueColor);
+    padding: 5px 10px;
+
+
+}
+
+.posts-container {
+
+    text-align: left;
+    padding: 20px;
+
+}
+
+
+.posts-container h3,
+a {
+    color: #0a53c1;
+
+
+}
+
+
+
+.page-container {
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.contact-container a {
+    text-decoration: none;
+    color: var(--blueColor);
+
+}
+
+.pageNotFound-container {
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.pageNotFound-container button {
+    color: var(--darkColor);
+    border: 5px solid var(--blueColor);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.pageNotFound-container button:hover {
+    background-color: var(--darkColor);
+    color: #0a53c1 !important;
+    border: 5px solid var(--darkColor);
+
+}
+
+.compose-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.compose-container h5 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+
+}

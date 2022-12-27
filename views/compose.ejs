@@ -1,0 +1,20 @@
+<%- include("partials/header") -%>
+    <div class="compose-container">
+        <h5>Ready to add a new page in your life ?</h5>
+        <form action="/compose" method="post">
+            <div class="mb-3">
+                <label for="newPostTitle" class="form-label">Title</label>
+                <input type="text" id="newPostTitle" name="newPostTitle" class="form-control"
+                    placeholder="Something catchy...">
+            </div>
+            <div class="mb-3">
+                <label for="newPostContent" class="form-label">Content</label>
+                <textarea class="form-control" type="text" id="newPostContent" name="newPostContent" rows="3"
+                    placeholder="What's on your mind ?"></textarea>
+            </div>
+            <button id="PostBtn" type="submit" class="btn btn-primary text-dark">Submit</button>
+        </form>
+    </div>
+
+
+    <%- include ("partials/footer") -%>

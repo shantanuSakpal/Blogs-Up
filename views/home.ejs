@@ -1,0 +1,32 @@
+<%- include("partials/header") -%>
+    <div class="home-container">
+
+
+        <h5>
+            Why need a book when you can use a digital journal to write down anything on your mind. Just head
+            towards
+            the compose section to start documenting your thoughts, your day or even your life.
+            <br>
+            Enjoy !!
+        </h5>
+        <h4 class="mt-4">Your Pages</h4>
+        <div class="posts-container">
+            <ul>
+                <%for(var i=0;i<posts.length;i++){%>
+                    <li>
+                        <h4>
+                            <%= posts[i].title %>
+
+
+                        </h4>
+                    </li>
+                    <p>
+                        <%=posts[i].content.substring(0,100)+" ..." %>
+                            <a href="posts/<%= lodash.kebabCase(posts[i].title)  %> ">Read more</a>
+                    </p>
+
+                    <%}%>
+            </ul>
+        </div>
+    </div>
+    <%- include ("partials/footer") -%>
