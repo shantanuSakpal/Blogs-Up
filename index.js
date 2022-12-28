@@ -1,8 +1,9 @@
 //jshint esversion:6
 import express from "express";
 import bodyParser from "body-parser";
-import ejs from "ejs";
 import lodash from "lodash";
+
+
 
 const app = express();
 app.locals.lodash = lodash;
