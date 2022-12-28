@@ -1,10 +1,8 @@
 //jshint esversion:6
-
-const express = require("express");
-const bodyParser = require("body-parser");
-const ejs = require("ejs");
-const lodash = require("lodash")
-
+import express from "express";
+import bodyParser from "body-parser";
+import ejs from "ejs";
+import lodash from "lodash";
 
 const app = express();
 app.locals.lodash = lodash;
